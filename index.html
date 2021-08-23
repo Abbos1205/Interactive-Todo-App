@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>Todo App</title>
+  </head>
+
+  <body>
+    <div class="hero">
+      <nav>
+        <h2 class="logo">ToDo<span>App</span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">ToDoApp</a></li>
+        </ul>
+      </nav>
+
+      <div class="contents">
+        <h1>Your busy life deserves this</h1>
+        <h4>
+          Interactive ToDoApp is an award-winning app used by millions of people
+          to<br />
+          stay arganized and get more done
+        </h4>
+        <div class="mybtn">
+          <a href="#" class="btn1 mt-5">TODO APP</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="box">
+        <div class="mycard">
+          <div class="iconcard">
+            <img class="cardimage" src="img/featured-item-01.png" alt="" />
+          </div>
+          <div class="pra">
+            <h5 class="mt-5">Create</h5>
+            <p>
+              Loren inpus dolor sil amet consectetur adipisicing stit Facitis
+            </p>
+          </div>
+        </div>
+
+        <div class="mycard">
+          <div class="iconcard">
+            <img class="cardimage" src="img/featured-item-01.png" alt="" />
+          </div>
+          <div class="pra">
+            <h5 class="mt-5">Create</h5>
+            <p>
+              Loren inpus dolor sil amet consectetur adipisicing stit Facitis
+            </p>
+          </div>
+        </div>
+
+        <div class="mycard">
+          <div class="iconcard">
+            <img class="cardimage" src="img/featured-item-01.png" alt="" />
+          </div>
+          <div class="pra">
+            <h5 class="mt-5">Create</h5>
+            <p>
+              Loren inpus dolor sil amet consectetur adipisicing stit Facitis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----About section start---->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="img/left-image.png" class="image1" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h1 style="font-size: 25px">Let's create your project</h1>
+            <p style="color: rgb(165, 161, 161)">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />
+              Distinctio maxime blanditiis exercitationem odio placeat?<br />
+              Reprehenderit, quibusdam?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 style="font-size: 25px">Let's create your project</h1>
+            <p style="color: rgb(165, 161, 161)">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />
+              Distinctio maxime blanditiis exercitationem odio placeat?<br />
+              Reprehenderit, quibusdam?
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/right-image.png" class="image1" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="Todoapps">
+      <div class="tododiv">
+        <h1>Interactive ToDoApp</h1>
+
+        <form>
+          <input type="text" class="todo-input" />
+          <button type="submit" class="todo-button">
+            <i class="fas fa-plus-square"></i>
+          </button>
+          <div class="select">
+            <select name="todos" class="filter-todo">
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="uncompleted">Uncompleted</option>
+            </select>
+          </div>
+        </form>
+        <div class="todo-container">
+          <div class="todo-list"></div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="JS/App.js"></script>
+  </body>
+</html>
